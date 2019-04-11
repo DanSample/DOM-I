@@ -66,4 +66,22 @@ contact.innerText = siteContent['nav']['nav-item-6']
 const catchPhrase = document.querySelector('h1');
 catchPhrase.innerText = siteContent['cta']['h1']
 
+const btn = document.querySelector('button');
+btn.innerText = siteContent['cta']['button']
 
+const midImg = document.querySelector('#cta-img');
+midImg.setAttribute('src', siteContent['cta']['img-src'])
+
+// Main content section
+
+const featuresH4 = document.querySelectorAll('h4')[0];
+featuresH4.textContent = siteContent['main-content']['features-h4']
+
+const featuresP = document.querySelectorAll('p')[0];
+featuresP.textContent = siteContent['main-content']['features-content']
+
+const aboutH4 = document.querySelectorAll('h4')[1];
+aboutH4.textContent = siteContent['main-content']['about-h4']
+
+const aboutP = document.querySelectorAll('p')[1];
+aboutP.textContent = siteContent['main-content']['about-content']
