@@ -40,3 +40,90 @@ const siteContent = {
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
+
+// Nav items for top nav bar
+
+const services = document.getElementsByTagName('a')[0];
+services.innerText = siteContent['nav']['nav-item-1']
+
+const product = document.getElementsByTagName('a')[1];
+product.innerText = siteContent['nav']['nav-item-2']
+
+const vision = document.getElementsByTagName('a')[2];
+vision.innerText = siteContent['nav']['nav-item-3']
+
+const features = document.getElementsByTagName('a')[3];
+features.innerText = siteContent['nav']['nav-item-4']
+
+const about = document.getElementsByTagName('a')[4];
+about.innerText = siteContent['nav']['nav-item-5']
+
+const contact = document.getElementsByTagName('a')[5];
+contact.innerText = siteContent['nav']['nav-item-6']
+
+// CTA section
+
+const catchPhrase = document.querySelector('h1');
+catchPhrase.innerText = siteContent['cta']['h1']
+
+const btn = document.querySelector('button');
+btn.innerText = siteContent['cta']['button']
+
+const headerImg = document.querySelector('#cta-img');
+headerImg.src = siteContent['cta']['img-src']
+
+// Main content section
+
+const featuresH4 = document.querySelectorAll('h4')[0];
+featuresH4.textContent = siteContent['main-content']['features-h4']
+
+const featuresP = document.querySelectorAll('p')[0];
+featuresP.textContent = siteContent['main-content']['features-content']
+
+const aboutH4 = document.querySelectorAll('h4')[1];
+aboutH4.textContent = siteContent['main-content']['about-h4']
+
+const aboutP = document.querySelectorAll('p')[1];
+aboutP.textContent = siteContent['main-content']['about-content']
+
+const midImg = document.querySelector('.middle-img');
+midImg.src = siteContent['main-content']["middle-img-src"]
+
+const servicesH4 = document.querySelectorAll('h4')[2];
+servicesH4.textContent = siteContent['main-content']['services-h4']
+
+const servicesP = document.querySelectorAll('p')[2];
+servicesP.textContent = siteContent['main-content']['services-content']
+
+const productH4 = document.querySelectorAll('h4')[3];
+productH4.textContent = siteContent['main-content']['product-h4']
+
+const productP = document.querySelectorAll('p')[3];
+productP.textContent = siteContent['main-content']['product-content']
+
+const visionH4 = document.querySelectorAll('h4')[4];
+visionH4.textContent = siteContent['main-content']['vision-h4']
+
+const visionP = document.querySelectorAll('p')[4];
+visionP.textContent = siteContent['main-content']['vision-content']
+
+// Contact section
+
+const contactH4 = document.querySelectorAll('h4')[5];
+contactH4.textContent = siteContent['contact']['contact-h4']
+
+const contactAddress = document.querySelectorAll('p')[5];
+contactAddress.textContent = siteContent['contact']['address']
+
+const contactPhone = document.querySelectorAll('p')[6];
+contactPhone.textContent = siteContent['contact']['phone']
+
+const contactEmail = document.querySelectorAll('p')[7];
+contactEmail.textContent = siteContent['contact']['email']
+
+// Footer section
+
+const copyright = document.querySelectorAll('p')[8];
+copyright.textContent = siteContent['footer']['copyright']
+
+
