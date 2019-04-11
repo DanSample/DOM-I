@@ -106,3 +106,19 @@ visionH4.textContent = siteContent['main-content']['vision-h4']
 
 const visionP = document.querySelectorAll('p')[4];
 visionP.textContent = siteContent['main-content']['vision-content']
+
+// Contact section
+
+const contactH4 = document.querySelectorAll('h4')[5];
+contactH4.textContent = siteContent['contact']['contact-h4']
+
+const contactAddress = document.querySelectorAll('p')[5];
+contactAddress.textContent = siteContent['contact']['address']
+
+const contactPhone = document.querySelectorAll('p')[6];
+contactPhone.textContent = siteContent['contact']['phone']
+
+const contactEmail = document.querySelectorAll('p')[7];
+contactEmail.textContent = siteContent['contact']['email']
+
+
