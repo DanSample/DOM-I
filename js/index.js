@@ -90,4 +90,19 @@ const midImg = document.querySelector('.middle-img');
 midImg.src = siteContent['main-content']["middle-img-src"]
 
 const servicesH4 = document.querySelectorAll('h4')[2];
-servicesH4.textContent = siteContent['main-content']['services-content']
+servicesH4.textContent = siteContent['main-content']['services-h4']
+
+const servicesP = document.querySelectorAll('p')[2];
+servicesP.textContent = siteContent['main-content']['services-content']
+
+const productH4 = document.querySelectorAll('h4')[3];
+productH4.textContent = siteContent['main-content']['product-h4']
+
+const productP = document.querySelectorAll('p')[3];
+productP.textContent = siteContent['main-content']['product-content']
+
+const visionH4 = document.querySelectorAll('h4')[4];
+visionH4.textContent = siteContent['main-content']['vision-h4']
+
+const visionP = document.querySelectorAll('p')[4];
+visionP.textContent = siteContent['main-content']['vision-content']
