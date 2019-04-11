@@ -121,4 +121,9 @@ contactPhone.textContent = siteContent['contact']['phone']
 const contactEmail = document.querySelectorAll('p')[7];
 contactEmail.textContent = siteContent['contact']['email']
 
+// Footer section
+
+const copyright = document.querySelectorAll('p')[8];
+copyright.textContent = siteContent['footer']['copyright']
+
 
