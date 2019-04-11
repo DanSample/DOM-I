@@ -69,8 +69,8 @@ catchPhrase.innerText = siteContent['cta']['h1']
 const btn = document.querySelector('button');
 btn.innerText = siteContent['cta']['button']
 
-const midImg = document.querySelector('#cta-img');
-midImg.setAttribute('src', siteContent['cta']['img-src'])
+const headerImg = document.querySelector('#cta-img');
+headerImg.src = siteContent['cta']['img-src']
 
 // Main content section
 
@@ -85,3 +85,9 @@ aboutH4.textContent = siteContent['main-content']['about-h4']
 
 const aboutP = document.querySelectorAll('p')[1];
 aboutP.textContent = siteContent['main-content']['about-content']
+
+const midImg = document.querySelector('.middle-img');
+midImg.src = siteContent['main-content']["middle-img-src"]
+
+const servicesH4 = document.querySelectorAll('h4')[2];
+servicesH4.textContent = siteContent['main-content']['services-content']
